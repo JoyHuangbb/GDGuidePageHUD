@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/JoyHuangbb/GDGuidePageHUD.git", :tag => spec.version}
   spec.requires_arc = true
   spec.frameworks    = 'UIKit'
-  spec.source_files = 'GDGuidePageHUD/*'
+  spec.source_files = 'GDGuidePageHUD/**/*.{h,m}'
   spec.resource    = 'GDGuidePageHUD/GDGuideImage.bundle' #资源，比如图片，音频文件等
 
 end
